@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap'
+import { Button } from 'react-bootstrap';
 import TodoList from './Components/TodoList';
 
 import Particles from 'react-particles-js';
