@@ -17,6 +17,7 @@ export default class TodoForm extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
+    // eslint-disable-next-line react/prop-types
     this.props.onSubmit({
       id: shortid.generate(),
       text: this.state.text,
